@@ -1,6 +1,7 @@
 html
   head
     link(rel='stylesheet' href='css/main.css')
+    link(href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet")
 
     script(src='https://use.fontawesome.com/ed3411e27d.js')
 
@@ -9,5 +10,16 @@ html
     img.background-image(src="images/background.jpeg")
     .info
       h1=message
-      a.icon(href='https://www.facebook.com/julie.stevenson.3990', target='blank')
-        i.fa.fa-facebook
+      h1.subtitle='//TODO: write stuff about me'
+      .icons
+        a.icon(href='https://www.linkedin.com/in/juliannastevenson', target='blank')
+          i.fa.fa-linkedin
+        | &nbsp; &nbsp;
+        a.icon(href='https://github.com/jul-stevenson', target='blank')
+          i.fa.fa-github
+        | &nbsp; &nbsp;
+        a.icon(href='https://www.facebook.com/julie.stevenson.3990', target='blank')
+          i.fa.fa-facebook
+        | &nbsp; &nbsp;
+        a.icon(href='mailto:julianna.h.stevenson@gmail.com', target='blank')
+          i.fa.fa-envelope-open

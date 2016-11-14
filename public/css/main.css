@@ -1,6 +1,14 @@
 h1 {
   color: black;
   font-size: 60;
+  font-family: 'Arimo', sans-serif;
+}
+
+.subtitle {
+  font-size: 20;
+  text-align: right;
+  font-style: italic;
+  padding-bottom: 25px;
 }
 
 img.background-image {
@@ -19,6 +27,9 @@ img.background-image {
 
 .icon {
   color: black;
-  float: right;
   font-size: 2em;
+}
+
+.icons {
+  float: right;
 }
