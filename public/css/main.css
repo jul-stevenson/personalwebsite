@@ -1,13 +1,13 @@
 h1 {
   color: black;
-  font-size: 60;
+  font-size: 70;
   font-family: 'Arimo', sans-serif;
 }
 
 .subtitle {
-  font-size: 20;
+  font-size: 23;
   text-align: right;
-  font-style: italic;
+  font-style: bold;
   padding-bottom: 25px;
 }
 
