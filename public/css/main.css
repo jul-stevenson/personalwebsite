@@ -1,0 +1,24 @@
+h1 {
+  color: black;
+  font-size: 60;
+}
+
+img.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1000px;
+  min-width: 100%;
+  z-index: -1;
+}
+
+.info {
+  padding-right: 50px;
+  float: right;
+}
+
+.icon {
+  color: black;
+  float: right;
+  font-size: 2em;
+}
