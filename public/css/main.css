@@ -1,6 +1,14 @@
 h1 {
-  color: black;
+  color: #36382E;
   font-size: 70;
+  font-family: 'Arimo', sans-serif;
+}
+
+h2  {
+  font-family: 'Arimo', sans-serif;
+}
+
+p {
   font-family: 'Arimo', sans-serif;
 }
 
@@ -9,13 +17,14 @@ h1 {
   text-align: right;
   font-style: bold;
   padding-bottom: 25px;
+  font-style: italic;
 }
 
 img.background-image {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  height: 1000px;
+  height: 750px;
   min-width: 100%;
   z-index: -1;
 }
@@ -26,10 +35,46 @@ img.background-image {
 }
 
 .icon {
-  color: black;
+  color: #36382E;
   font-size: 2em;
 }
 
 .icons {
   float: right;
+}
+
+.bio {
+  position: absolute;
+  margin-top: 750px;
+  font-family: 'Arimo', sans-serif;
+  width: 100%;
+  height: 400px;
+  background-color: #DADAD9;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.words {
+  width: 45%;
+  margin-left: 25px;
+}
+
+.resume {
+  color: #36382E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F06449;
+}
+
+.julie-pic {
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 50px;
+  height: 300px;
+  float: right;
+  top: 0;
+  border-radius: 50%;
 }

@@ -12,3 +12,7 @@ app.listen(3000, function () {
 app.get('/', function(req, res) {
   res.render('index', {title: 'Julianna Stevenson', message: 'Julianna Stevenson'})
 })
+
+app.get('/resume', function(req, res) {
+  res.render('resume', {title: 'Resume'})
+})
