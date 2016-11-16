@@ -2,14 +2,17 @@ h1 {
   color: #36382E;
   font-size: 70;
   font-family: 'Arimo', sans-serif;
+  text-align: right;
 }
 
 h2  {
   font-family: 'Arimo', sans-serif;
+  font-size: 2em;
 }
 
 p {
   font-family: 'Arimo', sans-serif;
+  font-size: 1.2em;
 }
 
 .subtitle {
@@ -53,6 +56,7 @@ img.background-image {
   left: 0;
   right: 0;
   top: 0;
+  color: #36382E;
 }
 
 .words {
@@ -61,7 +65,7 @@ img.background-image {
 }
 
 .resume {
-  color: #36382E;
+  color: inherit;
   text-decoration: none;
 }
 
