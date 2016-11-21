@@ -1,28 +1,3 @@
-h1 {
-  color: #36382E;
-  font-size: 70;
-  font-family: 'Arimo', sans-serif;
-  text-align: right;
-}
-
-h2  {
-  font-family: 'Arimo', sans-serif;
-  font-size: 2em;
-}
-
-p {
-  font-family: 'Arimo', sans-serif;
-  font-size: 1.2em;
-}
-
-.subtitle {
-  font-size: 23;
-  text-align: right;
-  font-style: bold;
-  padding-bottom: 25px;
-  font-style: italic;
-}
-
 img.background-image {
   position: absolute;
   top: 0;
@@ -30,6 +5,22 @@ img.background-image {
   height: 750px;
   min-width: 100%;
   z-index: -1;
+}
+
+h1 {
+  color: #36382E;
+  font-size: 4em;
+  font-family: 'Arimo', sans-serif;
+  text-align: right;
+  margin-bottom: -5px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.05em;
+  margin-left: 50%;
+  text-align: right;
 }
 
 .info {
@@ -46,24 +37,6 @@ img.background-image {
   float: right;
 }
 
-.bio {
-  position: absolute;
-  margin-top: 750px;
-  font-family: 'Arimo', sans-serif;
-  width: 100%;
-  height: 400px;
-  background-color: #DADAD9;
-  left: 0;
-  right: 0;
-  top: 0;
-  color: #36382E;
-}
-
-.words {
-  width: 45%;
-  margin-left: 25px;
-}
-
 .resume {
   color: inherit;
   text-decoration: none;
@@ -71,14 +44,4 @@ img.background-image {
 
 a:hover {
   color: #F06449;
-}
-
-.julie-pic {
-  position: absolute;
-  margin-left: 65%;
-  margin-top: 50px;
-  height: 300px;
-  float: right;
-  top: 0;
-  border-radius: 50%;
 }
